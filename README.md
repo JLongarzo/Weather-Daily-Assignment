@@ -20,7 +20,11 @@ conda activate briefings-env
 Then, from within the virtual environment, install package dependencies:
 
 ```sh
+<<<<<<< Updated upstream
 pip install -r requirements.txt - also test
+=======
+pip install -r requirements.txt ---- hello hello test
+>>>>>>> Stashed changes
 ```
 
 Obtain API Keys from the [Open Weather](https://home.openweathermap.org/api_keys), and [SendGrid](https://app.sendgrid.com/settings/api_keys) services. Create a new file called ".env" in the root directory of this repo, and paste the following contents inside, using your own values as appropriate:
